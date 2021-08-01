@@ -20,4 +20,4 @@ Search radius is assigned to constant `SEARCH_RADIUS` in `./src/flight-data.ts`.
 Run `docker compose run api npm test`
 <br/>
 
-#### Note: Data is old and also had to remove some of the routes because they had either source or destination iata set to `null`. That's why sometimes it can't find the route even though there is in reality. 
+Note: Data is old and also had to remove some of the routes because they had either source or destination iata set to `null`. That's why sometimes it can't find the route even though there is in reality. 
